@@ -7,9 +7,6 @@ tags: [flutter_animate, Flutter, animation, Dart]
 comments: true
 share: true
 ---
-
-# flutter_animate introduction — animations without the boilerplate
-
 ![Flutter animation](https://images.unsplash.com/photo-1550063873-ab792950096b?w=800&q=80)
 
 Flutter animations have always worked fine. They just take a lot of code to set up. An `AnimationController`, a `Ticker`, an `AnimatedBuilder` or `AnimatedWidget`, the actual `Tween` — that's four moving parts before a single widget fades in. `flutter_animate` (version 4.x) collapses all of that into extension methods chained directly on the widget.

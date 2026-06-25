@@ -7,9 +7,6 @@ tags: [flutter_animate, animation, state_management, Flutter, Dart]
 comments: true
 share: true
 ---
-
-# flutter_animate target parameter — state-driven animations without AnimationController
-
 ![Toggle animation state change concept on mobile screen](https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80)
 
 Most animations you write in Flutter fall into two categories: play once on mount (what the first few posts in this series covered), or toggle between two states based on something the user did. The second category is where Flutter's vanilla API gets painful fast. `flutter_animate` has a clean answer: the `target` parameter.

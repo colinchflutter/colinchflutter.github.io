@@ -39,8 +39,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 With the `flutter_svg` package, you can easily load and display SVG files in your Flutter application.
 
-## Animating SVG in Flutter
-
+#
 ### Using AnimatedContainer
 The simplest way to animate an SVG in Flutter is by using `AnimatedContainer`. `AnimatedContainer` is a Flutter widget that automatically animates changes in its properties, such as width, height, color, and more. To animate an SVG, you can wrap it inside an `AnimatedContainer` and change any desired property over time.
 

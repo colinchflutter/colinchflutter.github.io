@@ -18,8 +18,7 @@ Event sourcing is a pattern where the state of an application is derived by capt
 
 CQRS separates the read and write concerns of an application. Instead of using a single model to handle both reading and writing operations, CQRS introduces two separate models - the Command model for writing data and the Query model for reading data. This allows for more flexibility, scalability, and optimized performance in handling complex data operations.
 
-## Implementing event sourcing and CQRS in Flutter database migrations
-
+#
 To implement event sourcing and CQRS in Flutter database migrations, we can follow these steps:
 
 1. Define the events: Identify the events that represent the changes happening in the database. For example, `UserCreatedEvent`, `UserUpdatedEvent`, or `UserDeletedEvent` that capture the respective user changes.

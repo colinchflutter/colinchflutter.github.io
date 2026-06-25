@@ -18,8 +18,7 @@ Image localization involves translating the text content within images into diff
 
 OCR translation refers to the process of extracting text from images using Optical Character Recognition technology and then translating that text into different languages. This enables us to translate the textual content within images and make them more accessible to users who speak different languages.
 
-## Implementing image localization and OCR translation in a Flutter app
-
+#
 To implement image localization and OCR translation in a Flutter app, we can follow these steps:
 
 ### Step 1: Choose an OCR API

@@ -7,9 +7,6 @@ tags: [flutter_animate, CustomPainter, animation, Flutter, Dart]
 comments: true
 share: true
 ---
-
-# flutter_animate CustomEffect — animating custom-drawn widgets
-
 ![Custom paint animation on canvas](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80)
 
 `flutter_animate` handles `fadeIn`, `slideX`, `scale` cleanly. But as soon as you have a `CustomPainter` — a progress arc, a hand-drawn path, a signature stroke — you're on your own. The built-in effects don't reach inside a painter. `CustomEffect` is how you fix that.

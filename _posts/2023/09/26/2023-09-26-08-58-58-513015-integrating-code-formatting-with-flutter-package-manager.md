@@ -26,8 +26,7 @@ There are various code formatting tools available for Flutter projects. Some pop
 - **Pedantic**: A set of linter rules that enforce some best practices and code style conventions. It captures many popular style preferences.
 - **Flutter format**: An opinionated code formatter specifically tailored for Flutter projects.
 
-## Integrating code formatting with Flutter Package Manager
-
+#
 Now, let's explore how to integrate code formatting into your Flutter project using Flutter Package Manager.
 
 1. **Add formatting dependencies**: Open your `pubspec.yaml` file and add the code formatting dependencies to the `dev_dependencies` section:

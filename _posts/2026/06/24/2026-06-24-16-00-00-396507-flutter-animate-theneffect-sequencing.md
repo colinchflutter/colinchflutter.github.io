@@ -7,9 +7,6 @@ tags: [flutter_animate, animation, Flutter, Dart]
 comments: true
 share: true
 ---
-
-# flutter_animate ThenEffect — chaining animations without the delay math headache
-
 ![Sequential UI animation transitions on a mobile device](https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80)
 
 Short answer: `ThenEffect` is a zero-visual marker that pins the timeline position. Any effect after it starts from that marker, not from zero. When you change one duration, everything downstream shifts automatically — no recalculating delays by hand.

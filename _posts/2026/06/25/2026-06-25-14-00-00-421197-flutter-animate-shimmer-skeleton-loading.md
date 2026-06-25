@@ -7,9 +7,6 @@ tags: [flutter_animate, animation, Flutter, performance]
 comments: true
 share: true
 ---
-
-# flutter_animate ShimmerEffect — skeleton loading screens without the shimmer package
-
 ![Skeleton loading screen on a mobile app](https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=800&q=80)
 
 Short answer: `flutter_animate` ships `ShimmerEffect` out of the box. You don't need the `shimmer` package at all — and the flutter_animate version composes cleanly with the rest of your animation chain.

@@ -7,9 +7,6 @@ tags: [flutter_animate, animation, ListView, Flutter, Dart]
 comments: true
 share: true
 ---
-
-# flutter_animate staggered list animations — one line per item, no controllers
-
 ![Flutter list animation with staggered fade-in effect](https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80)
 
 Staggered list animations look impressive and feel polished. And before `flutter_animate`, they were genuinely annoying to implement — you'd manage an `AnimationController` per item, or use a single controller with `Interval` curves for each one, or reach for `flutter_staggered_animations` just to avoid writing the boilerplate. With `flutter_animate` 4.x, the whole thing collapses to one line per item.

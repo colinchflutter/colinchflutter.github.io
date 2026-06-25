@@ -7,9 +7,6 @@ tags: [flutter_animate, animation, Flutter, ScrollPhysics]
 comments: true
 share: true
 ---
-
-# flutter_animate ScrollAdapter — scroll-driven animations without a single AnimationController
-
 ![Mobile app with smooth scroll-driven animations](https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80)
 
 Short answer: wrap your `Animate` widget's controller in a `ScrollAdapter`, hand it a `ScrollController`, and the animation position tracks scroll offset automatically. No `addListener`, no manual `controller.value = ...`, no `setState` on every frame.
