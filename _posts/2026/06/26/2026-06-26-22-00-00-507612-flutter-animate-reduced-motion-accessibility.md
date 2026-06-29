@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate and Reduced Motion: Building Accessible Flutter Apps
-
 ![Smartphone accessibility settings screen showing reduce motion toggle](https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80)
 
 `flutter_animate` makes it easy to add polished animations, but there's a catch: some users have "Reduce Motion" turned on in their system settings. On iOS, that disables parallax and crossfade transitions. On Android, it collapses the animation scale to 0. If your flutter_animate animations ignore those settings, you're breaking accessibility for anyone who gets motion sick, has vestibular disorders, or simply prefers less visual noise.

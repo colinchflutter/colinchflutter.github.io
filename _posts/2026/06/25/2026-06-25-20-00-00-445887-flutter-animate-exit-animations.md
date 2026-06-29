@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate Exit Animations — Animating Widgets Out Before They Disappear
-
 ![Flutter widget exit animation dismiss card effect](https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80)
 
 Exit animations are the awkward stepchild of Flutter. Entrance effects are trivial — widget builds, you chain `.animate()`, done. But remove a widget from the tree and it's just *gone*, no chance for a fade-out or slide-away. flutter_animate doesn't solve this automatically. You have to be deliberate about it.

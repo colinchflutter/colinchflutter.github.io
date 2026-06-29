@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate Morphing Button — Loading Spinner to Success State
-
 ![Submit button on a mobile UI with glowing feedback state](https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80)
 
 The animated submit button is one of those "should be simple" UI elements that turns into a rabbit hole fast. You want: idle → loading spinner → success checkmark (or error). The naive approach usually involves three separate widgets and a `setState` mess. Here's how to do it cleanly with `flutter_animate` — no extra `AnimationController`, no `TickerProvider` headaches.

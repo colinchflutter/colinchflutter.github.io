@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate + Hero Transitions — Entrance Animations That Hand Off to Flutter's Hero Widget
-
 ![Flutter Hero transition card to detail page animation](https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80)
 
 The Hero widget handles the shared-element flight between screens. flutter_animate handles entrance effects. Combining them is mostly straightforward — except for one timing trap that burns everyone the first time.

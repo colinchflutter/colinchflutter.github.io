@@ -8,7 +8,6 @@ comments: true
 share: true
 ---
 
-
 ## Introduction
 
 When working with streams in Flutter applications, there are times when you want to ignore consecutive duplicate values emitted by a stream. The `distinctUntilChanged` operator allows you to filter out these duplicate values and only emit distinct values.

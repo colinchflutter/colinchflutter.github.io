@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate Text Reveal — Typewriter, Character Stagger, and Word-by-Word Animations
-
 ![Typewriter text animation on a dark screen](https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80)
 
 Text animations are one of those things that look effortless in demos but turn into a mess once you try to build them yourself. The "typewriter" effect specifically — where characters appear one by one — usually pulls you toward a `Timer`, a `StatefulWidget`, and a string slice that grows character by character. With flutter_animate, you can skip most of that plumbing and build the same thing with pure composition.

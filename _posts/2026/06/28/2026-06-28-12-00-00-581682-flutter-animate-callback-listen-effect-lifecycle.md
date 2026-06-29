@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# CallbackEffect and ListenEffect in flutter_animate — Hooking Into Animation Lifecycle Events
-
 ![Developer staring at code on a dark monitor with glowing terminal output](https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80)
 
 Most animation side-effect problems come down to the same question: how do you fire haptic feedback exactly when a card lands, play a sound cue mid-animation, or update state when an animation crosses the halfway point? With a raw `AnimationController` you'd add a `StatusListener` or an `addListener` callback. With `flutter_animate`, `CallbackEffect` and `ListenEffect` handle both cases inline, without exposing the controller at all.

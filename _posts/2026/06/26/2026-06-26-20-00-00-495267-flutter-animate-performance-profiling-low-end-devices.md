@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate on Low-End Devices — Profiling and Fixing Dropped Frames
-
 ![Flutter performance profiling DevTools](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80)
 
 The short answer: opacity and scale are almost free — the GPU handles them without touching the CPU. Blur effects and shimmer are expensive. On a Pixel 9 you'll never notice the difference. On a Galaxy A15 or Redmi A3, you'll see it immediately as stutter, lag, and eventually users uninstalling your app.

@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate BlurEffect: Animating Depth and Focus in Flutter UI
-
 ![Blurred bokeh lights with sharp center focus — depth effect photography](https://images.unsplash.com/photo-1518655048521-f130df041f66?w=800&q=80)
 
 `flutter_animate` ships a `BlurEffect` that runs a `BackdropFilter`-style blur through the animation timeline. You use it as `.blurXY()`, `.blurX()`, or `.blurY()`, and it just works — no `AnimationController`, no `TweenAnimationBuilder`, no manual `ImageFilter.blur()` wiring.

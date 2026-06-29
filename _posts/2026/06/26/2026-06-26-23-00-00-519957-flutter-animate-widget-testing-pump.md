@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate Widget Testing: Verifying Effects with tester.pump
-
 ![Developer writing tests on a laptop with code editor open](https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&q=80)
 
 Most Flutter teams write zero tests for animations. Honestly, that's somewhat understandable — animations are time-based, visual, and Flutter's test framework requires knowing how time interacts with the widget tree. But with `flutter_animate`, the test surface is actually pretty clean once you know the two or three things that trip you up.

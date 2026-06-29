@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate Card Flip — 3D Rotation, ScaleX Trick, and State-Driven Toggle
-
 ![Playing cards fanned out on a dark surface](https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=800&q=80)
 
 Card flip is one of those animations that every developer thinks will take 20 minutes and ends up consuming an afternoon. The widget swap has to happen at exactly the right frame, the 3D perspective needs a `Matrix4` trick that isn't in any obvious place in the docs, and if you try to animate front and back independently, they desync in ways that are very visible to users.

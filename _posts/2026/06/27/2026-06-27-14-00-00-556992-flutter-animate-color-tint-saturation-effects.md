@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate Color Effects: Tint, Saturation, and Color Shift in Practice
-
 ![Color gradient and abstract light waves on dark background](https://images.unsplash.com/photo-1550859492-d5da9d8e45f3?w=800&q=80)
 
 Color animations are weirdly underused in Flutter apps. Most developers reach for opacity fades or slides, but `flutter_animate` ships with three dedicated color effects that handle situations those don't: `TintEffect`, `SaturateEffect`, and `ColorEffect`. Each one does something distinct, and mixing them up wastes time.

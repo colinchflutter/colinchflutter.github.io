@@ -8,7 +8,6 @@ comments: true
 share: true
 ---
 
-
 With the rise of online shopping, building an e-commerce application has become essential for businesses looking to reach a wider audience and increase their revenue. Flutter, a popular cross-platform development framework, offers the capability to build stunning web applications using WebAssembly. In this blog post, we will explore the benefits of building e-commerce applications in Flutter WebAssembly and showcase a sample implementation.
 
 

@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate Looping Animations — Pulse, Spinner, and Breathing Effects with repeat
-
 ![Looping animation loading spinner UI Flutter](https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=800&q=80)
 
 Looping animations are everywhere — loading spinners, pulsing icons, breathing status dots. flutter_animate makes them trivial to set up, but the "stop it cleanly" part trips people up every time. Here's the pattern.

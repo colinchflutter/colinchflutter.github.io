@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate SwapEffect: Mid-Animation Widget Replacement Done Right
-
 ![Widget transformation animation — morphing shapes on dark background](https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80)
 
 `SwapEffect` is probably the most underused effect in `flutter_animate`. It lets you swap the target widget for a completely different widget at a specific point in the animation timeline — without any `setState`, `AnimatedSwitcher`, or visibility hacks.

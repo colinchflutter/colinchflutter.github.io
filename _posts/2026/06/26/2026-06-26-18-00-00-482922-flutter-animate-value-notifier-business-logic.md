@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate + ValueNotifier — Driving Animations from Business Logic Without StatefulWidget
-
 ![Flutter state management and animation coordination concept](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80)
 
 Short answer: pass a `ValueNotifier<double>` to `Animate`'s `target` parameter. When the notifier changes, the animation plays. No `setState`, no `AnimationController`, no `StatefulWidget` conversion required.

@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate Gesture-Driven Animations — Controlling Effects with GestureDetector
-
 ![Flutter gesture-driven animation interactive card swipe](https://images.unsplash.com/photo-1555421689-491a97ff2040?w=800&q=80)
 
 Most flutter_animate usage is fire-and-forget — widget appears, animation plays, done. But sometimes you need the animation to *follow* the user's finger. Drag progress controls opacity, swipe distance controls a card flip, pan gesture drives a parallax shift. Turns out flutter_animate handles this cleanly through `Animate.controller`.

@@ -8,8 +8,6 @@ comments: true
 share: true
 ---
 
-# flutter_animate ShakeEffect: Attention-Seeker Animations for Error States and Notifications
-
 ![Red alert notification badge glowing on dark background](https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80)
 
 Shake animations are one of those things that look trivial until you try to implement them from scratch. With `AnimationController` and `Tween` you end up writing thirty lines of boilerplate for a two-frame jiggle. `flutter_animate`'s `ShakeEffect` handles this in one chained call — and it's more flexible than the name suggests.
