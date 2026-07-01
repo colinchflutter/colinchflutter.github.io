@@ -88,10 +88,10 @@ Android, iOS, Web, Desktop
 | audio | Audio playback & recording | 2023.09 | 완결 | ~40 |
 | SVG | SVG rendering in Flutter | 2023.10 | 완결 | ~50 |
 | video trimming | Video trimming features | 2023.10 | 완결 | ~50 |
-| flutter_animate | Animation package deep-dive | 2026.06 | **진행 중** | 4+ |
+| flutter_animate | Animation package deep-dive | 2026.06 | **진행 중** | 25+ |
 
-마지막 포스트: `_posts/2026/06/26/2026-06-26-20-00-00-495267-flutter-animate-performance-profiling-low-end-devices.md`  
-다음 일련번호: `507612`
+마지막 포스트: `_posts/2026/06/29/2026-06-29-14-00-00-631062-flutter-animate-go-router-page-transitions.md`  
+다음 일련번호: `643407`
 
 ### 다음 시리즈 후보 (새 시리즈 시작 시 선택)
 
