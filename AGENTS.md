@@ -1,5 +1,11 @@
-# Codex 경량 하네스
+# Colin Flutter Package Deep-Dive Harness
 
-자동 포스팅 프롬프트에 포함된 블로그별 발췌 컨텍스트를 우선 사용한다.
-
-`CLAUDE.md`는 호환용 원본 문서다. 자동 포스팅 중에는 전체를 읽지 말고, 프롬프트 컨텍스트가 없거나 불명확할 때만 필요한 섹션을 `rg`로 좁게 확인한다.
+- Follow the parent `AGENTS.md` for shared posting, file, and git rules. Do not read the full `CLAUDE.md` during autoposting.
+- Language: English only. Tone: practical developer-to-developer, with concrete traps and fixes.
+- Topic: Flutter package/widget deep-dives, advanced patterns, edge cases, and working examples.
+- Current flow: long package/widget series. Continue the recent series unless the prompt explicitly asks for a new one.
+- SEO: put the Flutter package/widget name, the concrete behavior, and the problem/benefit in the title, description, and first paragraph.
+- Tags: first tag is the package/widget name. Common tags: `animation`, `state_management`, `navigation`, `localization`, `networking`, `caching`, `testing`, `performance`, `Android`, `iOS`, `Web`, `Desktop`.
+- Visuals: prefer widget behavior tables, before/after screenshots, architecture flowcharts, and small performance comparison tables.
+- Avoid these phrases: `In conclusion`, `To summarize`, `It's worth noting that`, `This allows you to`, `In order to`, `Leverage`, `Utilize`, `Robust solution`, `Let's dive into`.
+- Web search is normally skipped. Use it only for official Flutter/package documentation when the API may have changed.
